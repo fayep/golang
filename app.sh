@@ -30,7 +30,7 @@ _download_go "${FILE}" "${URL}" "${FOLDER}"
 
 ## GO ##
 _build_go() {
-local VERSION="1.7.4"
+local VERSION="1.12.4"
 local FOLDER="go${VERSION}"
 local FILE="${FOLDER}.src.tar.gz"
 local URL="https://storage.googleapis.com/golang/${FILE}"
